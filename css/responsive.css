@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+
+    .nav_menu {
+        display: none;
+        width: 0%;
+    }
+
+    .bars {
+        display: flex;
+        justify-content: end;
+        text-align: right;
+
+    }
+    .navlogo .nav_btn, h2 {
+        display: none;
+    }
+    #banner {
+        flex-direction: column-reverse;
+        /* flex-direction: row-reverse; */
+    }
+
+    .foot_main{
+        flex-direction: column;
+    }
+}
+
