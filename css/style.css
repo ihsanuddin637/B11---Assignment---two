@@ -10,9 +10,6 @@
     padding: 0;
 }
 
-.container {
-    padding: 0 100px;
-}
 
 /* ==========================================
             Common Css End
@@ -25,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 100px;
 }
 
 .navlogo {
@@ -118,6 +116,7 @@
     text-align: center;
     justify-content: space-between;
     margin-bottom: 60px;
+    padding: 0 100px;
 }
 
 .banner_content {
@@ -149,6 +148,7 @@
     line-height: 25px;
     letter-spacing: 0%;
     text-align: left;
+    padding: 20px 0;
 }
 
 .banner_content button {
@@ -176,6 +176,11 @@
             Banner part End
 ============================================*/
 
+
+#curriculam {
+    padding: 0 100px;
+    background-image: url(../images/bg.png);
+}
 
 #curriculam h2 {
     color: rgb(0, 0, 0);
@@ -216,6 +221,7 @@
     line-height: 30.65px;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 10px;
 }
 
 .column_indiv p {
@@ -226,16 +232,29 @@
     line-height: 28.3px;
     letter-spacing: 0%;
     text-align: center;
+    padding: 10px 0;
 }
 
 .column_indiv .btn {
-    color: rgb(100, 200, 255);
     font-family: "Quicksand", serif;
     font-size: 15.09px;
     font-weight: 700;
     line-height: 28.3px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+
+.column_indiv .btn1 {
+    color: rgb(100, 200, 255);
+}
+
+.column_indiv .btn2 {
+    color: rgb(240, 170, 0);
+}
+
+.column_indiv .btn3 {
+    color: rgb(135, 0, 255);
 }
 
 .column_one {
@@ -284,7 +303,7 @@
     height: 60px;
     border-radius: 100%;
     background: rgb(254, 163, 1);
-    /* padding: 10px; */
+    margin: 0 5px;
 
 }
 
@@ -307,12 +326,20 @@
 
 #stories {
     margin-top: 60px;
+    background-image: url(../images/bg.png);
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    /* background: red; */
 }
 
 .parent_content {
     display: flex;
-    gap: 20px;
+    gap: 16px;
     position: relative;
+    padding: 0 100px;
+}
+
+.stories_head {
+    margin-bottom: 80px;
 }
 
 .stories_head h2 {
@@ -386,7 +413,7 @@
 .sec_content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
 
 }
 
@@ -402,7 +429,7 @@
     font-weight: 700;
     letter-spacing: 0%;
     text-align: left;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .float1 {
@@ -429,18 +456,45 @@
 
 .sec_one {
     position: relative;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .sec_two {
     position: relative;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .sec_three {
     position: relative;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .sec_four {
     position: relative;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+#stories .last_btn {
+    text-align: center;
+    justify-content: center;
+    padding: 80px 0 60px 0;
+}
+
+.last_btn button {
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 5px 30px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+
 }
 
 /* ==========================================
@@ -451,11 +505,12 @@
 ============================================*/
 .foot_main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* align-items: center; */
     background: rgb(1, 172, 253);
     padding: 100px 100px;
     gap: 30px;
+    /* padding: 0 100px; */
 }
 
 .foot_logo {
