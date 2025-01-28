@@ -52,7 +52,7 @@
     text-align: center;
 }
 
-.nav_menu .bars {
+.bars {
     display: none;
 }
 
@@ -291,7 +291,7 @@
     justify-content: center;
 }
 
-.fa-solid {
+.chevron {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 900;
