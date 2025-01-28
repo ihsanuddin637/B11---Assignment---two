@@ -1,26 +1,165 @@
 @media screen and (max-width: 600px) {
 
-    .nav_menu {
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    
+    .nav_menu, .nav_btn {
         display: none;
         width: 0%;
     }
 
-    .bars {
+    .nav_menu .bars {
         display: flex;
         justify-content: end;
         text-align: right;
-
     }
-    .navlogo .nav_btn, h2 {
+
+    /* .bars i{
+        color: red;
+    } */
+
+    .navlogo h2 {
         display: none;
     }
+
+    
     #banner {
         flex-direction: column-reverse;
-        /* flex-direction: row-reverse; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        padding: 0 10px;
     }
+
+    .hr{
+        display: flex;
+        margin-top: 20px;
+        background: rgb(254, 163, 1);
+    }
+
+    .banner_content button {
+        color: rgb(255, 255, 255);
+        font-family: "Quicksand", serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+        border-radius: 12px;
+        background: rgb(17, 17, 17);
+        padding: 5px 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .banner_content h1 {
+        font-family: "Quicksand", serif;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .Empowering {
+        color: rgb(254, 163, 1);
+        display: block;
+    }
+    .towards {
+        color: rgb(1, 172, 253);
+        display: block;
+    }
+    .banner_content p {
+        color: rgb(17, 17, 17);
+        font-family: "Quicksand", serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .banner_content button {
+        color: rgb(255, 255, 255);
+        font-family: "Quicksand", serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+        border-radius: 12px;
+        background: rgb(17, 17, 17);
+        padding: 3px 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    .banner_content {
+        width: 100%;
+    }
+
+    #curriculam {
+        padding: 0 10px;
+        background-image: url(../images/bg.png);
+    }
+
+    .enroll_btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    #icon {
+        margin-top: 60px;
+        display: none;
+        background: url(../images/bg.png);
+    }
+    .curriculam_content{
+        flex-direction: column-reverse;
+    }
+
+    .parent_content {
+        display: flex;
+        gap: 5px;
+        position: relative;
+        padding: 0 10px;
+    }
+
+    .parent_content .first_content{
+        display: none;
+    }
+
+    /* .parent_content .sec_content{
+        grid-template-columns: repeat(2, 1fr);
+    } */
 
     .foot_main{
         flex-direction: column;
+    }
+
+    .foot_logo h2 {
+        display: flex;
+        
+    }
+
+    .foot_main {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        background: rgb(1, 172, 253);
+        padding: 20px 20px;
+        gap: 30px;
+    }
+
+    .navlogo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
     }
 }
 
