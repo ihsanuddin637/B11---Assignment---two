@@ -122,6 +122,16 @@
         background-image: url(../images/bg.png);
     }
 
+    #curriculam h2 {
+        color: rgb(0, 0, 0);
+        font-family: "Quicksand", serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39.5px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 80px;
+    }
     .enroll_btn {
         display: flex;
         justify-content: center;
@@ -142,6 +152,15 @@
         gap: 5px;
         position: relative;
         padding: 0 10px;
+    }
+    .stories_head h2 {
+        color: rgb(0, 0, 0);
+        font-family: "Quicksand", serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 39.5px;
+        letter-spacing: 0%;
+        text-align: center;
     }
 
     .parent_content .first_content {
